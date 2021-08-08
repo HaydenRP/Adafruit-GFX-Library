@@ -16,7 +16,7 @@ param (
     $version = 'latest')
 
 # Paths on host machine
-$dockerImageName = "fontconvert"
+$dockerImageName = "hpaurium/adafruit-gfx-fontconvert"
 $hostResourceFolder = ${PWD}
 
 # Paths on container

@@ -3,7 +3,7 @@ param (
     $version='latest'
 )
 
-$dockerImageName = "fontconvert"
+$dockerImageName = "hpaurium/adafruit-gfx-fontconvert"
 $fontconvertFolderPath = "fontconvert"
 
 Push-Location -Path ..
